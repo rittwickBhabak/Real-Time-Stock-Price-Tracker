@@ -1,7 +1,8 @@
 from datetime import datetime
 from scraper import scraper
 import json 
-
+#well commented
+aser=90
 list_of_urls = []
 with open('company.json', 'r+') as file:
     data = json.load(file)
